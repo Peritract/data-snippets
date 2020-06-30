@@ -8,7 +8,7 @@ The app allows you to insert data into a database, and view data from that datab
 
 There are two key files:
 
-1. `app.py`, which contains all the Python code
+1. `app.py`, which contains all the Python code; find it [here](./app.py)
 2. `database.db`, which stores data in a SQLite database
 
 If you don't have a database.db file, running the app will create it for you.
