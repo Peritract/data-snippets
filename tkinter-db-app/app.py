@@ -3,10 +3,9 @@ import tkinter as tk  # For the UI
 import tkinter.ttk as ttk  # For the UI (fancier buttons)
 import tkinter.messagebox as messagebox  # For displaying status/error messages
 import sqlite3 as sql  # Interact with the database
-import os, sys  # Manage file paths
-base_dir = '.'
-if hasattr(sys, '_MEIPASS'):
-    base_dir = os.path.join(sys._MEIPASS)
+import os  # Manage file paths
+import sys  # Manage file paths
+
 
 class Application(tk.Tk):
     """Base application class, holding all the UI frames"""
