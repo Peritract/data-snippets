@@ -19,4 +19,4 @@ Running `python app.py` in the command line will launch the app.
 
 ## Conversion to .exe
 
-Running `pyinstaller -w -F --add-data "./database.db:." app.py` in the command line will convert the app to a single `.exe` file.
+Running `pyinstaller -w -F --add-data "./database.db:." app.py` in the command line will convert the app to a single `.exe` file. It can then be given to someone else, who can use the program without having Python installed or any knowledge of coding.
